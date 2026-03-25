@@ -32,9 +32,9 @@ battery-monitor/
 
 Open `index.html` in browser.
 
-## 🌐 Live Demo
+## 🌐 Live Demo on
 
-
+battery-monitor-dhiru.netlify.app
 
 ## ⚠️ Note
 
