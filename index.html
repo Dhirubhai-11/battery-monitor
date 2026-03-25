@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery & Time Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Battery & Time Monitor</h1>
+        
+        <div class="card" id="batteryCard">
+            <div class="card-title">Battery Status</div>
+            <div class="loading" id="batteryLoading">Loading battery information...</div>
+            <div id="batteryInfo" style="display: none;">
+                <div class="battery-percentage" id="batteryPercentage">0%</div>
+                <div class="battery-bar">
+                    <div class="battery-fill" id="batteryFill"></div>
+                </div>
+                <div class="charging-status">
+                    <span class="charging-icon" id="chargingIcon"></span>
+                    <span id="chargingText"></span>
+                </div>
+            </div>
+            <div class="error-message" id="batteryError" style="display: none;"></div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Current Time</div>
+            <div class="time-display" id="timeDisplay">00:00:00</div>
+            <div class="date-display" id="dateDisplay">01-01-2024</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
